@@ -1,5 +1,5 @@
 {% set name = "do-mpc" %}
-{% set version = "4.4.0" %}
+{% set version = "4.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/do_mpc-{{ version }}.tar.gz
-  sha256: 6602ef99a0aa19e8c3d64061c517e8116167316b902432483c9d3a6137b0d3be
+  sha256: 0716c6e63eeab2cc96ed425b903da07909dcc8b5ff654a6529e770aaf7a03d04
 
 build:
   noarch: python
