@@ -25,6 +25,8 @@ requirements:
     - matplotlib-base
     - scipy
     - onnx
+    - asyncua
+    - packaging
 
 test:
   imports:
