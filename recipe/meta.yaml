@@ -24,6 +24,7 @@ requirements:
     - numpy
     - matplotlib-base
     - scipy
+    - onnx
 
 test:
   imports:
