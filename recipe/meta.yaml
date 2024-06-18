@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.6
     - casadi
-    - numpy
+    - numpy <2.0
     - matplotlib-base
     - scipy
     - onnx
