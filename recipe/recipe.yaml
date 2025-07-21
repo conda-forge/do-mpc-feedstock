@@ -20,7 +20,7 @@ build:
 
 requirements:
   host:
-    - python 3.10.*
+    - python ${{ python_min }}.*
     - pip
     - setuptools
   run:
@@ -41,8 +41,8 @@ tests:
       imports:
         - do_mpc
       pip_check: true
+      python_version: ["${{ python_min }}.*", "3.13.*"]
 
-      python_version: ${{ python_min }}.*
 about:
   summary: Model predictive control python toolbox
   description: |
