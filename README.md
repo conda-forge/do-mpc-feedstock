@@ -3,7 +3,7 @@ About do-mpc-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/do-mpc-feedstock/blob/main/LICENSE.txt)
 
-Home: https://www.do-mpc.com
+Home: https://www.do-mpc.com/
 
 Package license: LGPL-3.0-or-later
 
@@ -11,11 +11,10 @@ Summary: Model predictive control python toolbox
 
 Development: https://github.com/do-mpc/do-mpc
 
-Documentation: https://www.do-mpc.com
+Documentation: https://www.do-mpc.com/
 
 do-mpc is a comprehensive open-source toolbox for
 robust model predictive control (MPC) and moving horizon estimation (MHE)
-
 
 Current build status
 ====================
