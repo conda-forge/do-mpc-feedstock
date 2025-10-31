@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: do-mpc
-  version: 5.0.1
+  version: "5.1.1"
   python_min: 3.10
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/do_mpc-${{ version }}.tar.gz
-  sha256: 3cc846a67bbcfbbc914bc78fbda85eb54f90435d79f28abe6d326c7b72f4d9eb
+  sha256: 612c2b0e7e718173906219e1078bc581bddc951128cdc53359a24aed2d3062a7
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
