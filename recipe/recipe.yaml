@@ -2,16 +2,15 @@ schema_version: 1
 
 context:
   name: do-mpc
-  version: "5.1.1"
-  python_min: 3.10
+  version: "5.1.2"
 
 package:
-  name: ${{ name|lower }}
+  name: ${{ name }}
   version: ${{ version }}
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/do_mpc-${{ version }}.tar.gz
-  sha256: 612c2b0e7e718173906219e1078bc581bddc951128cdc53359a24aed2d3062a7
+  sha256: 2aec89efd270d00f68b5252c050de854104567ab2a5e4216d904eff76d36e62d
 
 build:
   number: 0
@@ -41,7 +40,9 @@ tests:
       imports:
         - do_mpc
       pip_check: true
-      python_version: ["${{ python_min }}.*", "3.13.*"]
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: Model predictive control python toolbox
